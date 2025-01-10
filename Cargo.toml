@@ -1,0 +1,9 @@
+[package]
+name = "The_Book"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "chapter1"
+test = false
+bench = false
