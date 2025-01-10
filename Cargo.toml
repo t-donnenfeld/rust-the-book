@@ -3,7 +3,16 @@ name = "The_Book"
 version = "1.0.0"
 edition = "2021"
 
+[dependencies]
+rand = "0.8.5"
+
+
 [[bin]]
 name = "chapter1"
+test = false
+bench = false
+
+[[bin]]
+name = "chapter2"
 test = false
 bench = false
